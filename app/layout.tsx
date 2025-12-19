@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Signalist",
-  description: "Track real-time stock prices, get personalized alerts and explore detailed company insights.",
+  title: "Stock Market",
+  description: "실시간 주가를 추적하고, 개인화된 알림을 통해 기업의 자세한 인사이트를 얻으세요.",
 };
 
 export default function RootLayout({
