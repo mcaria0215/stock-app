@@ -14,7 +14,7 @@ const useTradingViewWidget = (scriptUrl: string, config: Record<string, unknown>
       script.src = scriptUrl;
       script.type = "text/javascript";
       script.async = true;
-      script.innerHTML = JSON.stringify(config);
+      script.text = JSON.stringify(config);
       
       containerRef.current.appendChild(script);
       containerRef.current.dataset.loaded = 'true';
