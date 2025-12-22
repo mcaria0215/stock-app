@@ -19,7 +19,7 @@ const SignUp = () => {
       fullName: '',
       email: '',
       password: '',
-      country: 'KO',
+      country: 'KR',
       investmentGoals: 'Growth',
       riskTolerance: 'Medium',
       preferredIndustry: 'Technology'
@@ -29,7 +29,7 @@ const SignUp = () => {
 
   const onSubmit = async (data: SignUpFormData) => {
     try {
-      console.log(data);
+      
     } catch (e) {
       console.error(e);
     }
